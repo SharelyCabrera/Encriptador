@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-pe">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
+    rel="stylesheet">  
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <header> 
+        <img class="tamaño logo" src="Logo.png" alt="imagen de logo">
+    </header>
+          <main>
+            <form class="posicionamiento">
+                <textarea class="form__input" name="mensaje" id="" cols="30" 
+                rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                 <div class="btn__container">      
+                        <div class="alert__msj"><img src="bi_exclamation-circle-fill.png" 
+                           alt="signo de exclamacion"><span>Solo letras minúsculas y sin 
+                           acentos</span></div>
+                        </div>
+                        <div class="container">
+                   
+                        <input class="form__btn" type="submit" value="Encriptar">
+                        <input class="form__btn form__btn--secundaary" type="submit" value="Desencriptar">
+                </div>
+            </form>
+
+            <aside class= "result"> 
+                <img src="Mun.png" alt="imagen de niño" 
+                class="result__img">
+                <div class="loader hidden"></div>
+                <div class="result__container">
+                    <h3 class= "result__title"> Ningún mensaje fue encontrado</h3>
+                    <p class= "result__text"> Ingrese el texto que desees encriptar o desencriptar.</p>
+                    
+                    <button class= "result__btn form__btn
+                        form__btn--secundaary hidden">Copiar </button>
+                </div>
+            </aside>
+        </main>
+        <script src="Encriptador.js"></script>
+    </header>
+   
+   
+     <footer></footer>
+</body>
+
+
+
+
+</html>
+
